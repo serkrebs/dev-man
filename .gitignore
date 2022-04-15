@@ -5,11 +5,25 @@
 *.so
 *.dylib
 
+# output from test pipelines
+*.test
+
 # Test binary, built with `go test -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+coverage.txt
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Svelte build output
+/node_modules/
+/public/build/
+
+.DS_Store
+
+# Developer-specific directories
+.vscode/
+.idea/
